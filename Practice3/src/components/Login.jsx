@@ -8,9 +8,9 @@ function Login() {
 
     if (value.includes("o") || value.includes("O")) {
       alert("Por favor, ¡Nombres de usuario sin la letra o!");
-      setUsername(""); // Limpiar el estado del nombre de usuario
+      setUsername(""); 
     } else {
-      setUsername(value); // Actualizar el estado si no contiene "o" u "O"
+      setUsername(value); 
     }
   };
 
